@@ -42,7 +42,14 @@ public class App
     	
         // using iterator4
     	System.out.println(" using iterator");
-    	Iterator<Integer> iterator1=values.iterator();
+    	Iterator<Integer> iterator3=values.iterator();
+    	while(iterator.hasNext()) {
+    		System.out.println(iterator.next());
+    	}
+    	
+    	// using iterator5
+    	System.out.println(" using iterator");
+    	Iterator<Integer> iterator5=values.iterator();
     	while(iterator.hasNext()) {
     		System.out.println(iterator.next());
     	}
