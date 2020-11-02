@@ -34,6 +34,11 @@ public class App
     		System.out.println(iterator.next());
     	}
     	
+    	
+    	while(iterator.hasNext()) {
+    		System.out.println(iterator.next());
+    	}
+    	
     	System.out.println(" for each lambda expression");
     	// for each method in java - foreach method is internal loop method , for each is internal part of collections  
     	values.forEach(i -> System.out.println(i));// this is an implementation of consumer interface
